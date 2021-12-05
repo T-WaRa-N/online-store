@@ -1,0 +1,75 @@
+.adminPage{
+    background-color: rgb(124, 175, 243) ;
+    min-height: 105vh;
+    width: 100vw;
+}
+
+ h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+
+.adminPageNav{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgb(124, 175, 243);
+    margin: 15px;
+   
+}
+
+.adminPageNav > button{
+    height: 20px;
+    text-transform: uppercase;
+    margin: 15px 10px;
+    background: rgb(124, 175, 243);
+    border: none;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    color: whitesmoke;
+}
+
+.admin-container{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+
+.admin-container div h3{
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.userList, .inventory, .itemList{
+    background-color: rgb(112, 157, 216) ;
+    width: 30vw;
+    min-height: 50vh;
+    border-radius: 5px;
+}
+
+.itemList ol li{
+    color: whitesmoke;
+}
+
+.inventory p{
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin: 15px;
+}
+
+.admin-container div ol li{
+    color: whitesmoke;
+}
+
+.admin-container div ol li button{
+    color: rgb(114, 109, 109);
+    background-color: rgb(110, 162, 214);
+    border: none;
+    border: 1px solid rgb(114, 109, 109);
+    border-radius: 5px;
+}

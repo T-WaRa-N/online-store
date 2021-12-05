@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Loggin page rendered correctly? 1`] = `
+<div
+  className="log-in-page"
+>
+  <h1>
+    Welcome to the online shopping where you get great discounts on most deals
+  </h1>
+  <div
+    className="log-in-form-container"
+  >
+    <h3>
+      log-in
+    </h3>
+    <hr />
+    <form>
+      <label>
+        username:
+      </label>
+      <br />
+      <input
+        onChange={[Function]}
+        type="text"
+      />
+      <br />
+      <label>
+        password:
+      </label>
+      <br />
+      <input
+        onChange={[Function]}
+        type="text"
+      />
+      <br />
+      <br />
+      <button
+        id="log-in-button"
+        type="submit"
+      >
+        Log-in
+      </button>
+      <br />
+      <a
+        href="#"
+      >
+        forgot password?
+      </a>
+      <br />
+      <br />
+      <hr />
+    </form>
+    <button
+      id="fcbk"
+    >
+      Sign in using Facebook
+    </button>
+    <br />
+    <br />
+    <button
+      id="ggl"
+    >
+      Sign in using Google
+    </button>
+    <br />
+    <br />
+    <hr />
+    <label>
+      New User
+    </label>
+    <br />
+    <button
+      id="sign-up-button"
+    >
+      Sign-Up
+    </button>
+  </div>
+</div>
+`;

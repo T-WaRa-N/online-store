@@ -1,0 +1,65 @@
+
+.log-in-page{
+    background-color: rgb(130, 176, 223);
+    min-height: 95vh;
+    width: 100vw;
+}
+
+h1{
+    text-transform: uppercase;
+    /* background: linear-gradient(rgb(0, 140, 255), rgb(84, 132, 180)); */
+    text-align: center;
+    color: gainsboro;
+
+}
+
+.log-in-form-container{
+    border: 1px solid whitesmoke ;
+    margin: 0 auto;
+    min-height: 70vh;
+    width : 20vw;
+}
+
+.log-in-form-container > * {
+    margin: 10px;
+
+}
+
+#fcbk{
+    background: linear-gradient(rgb(52, 130, 233), rgb(122, 188, 226));
+}
+#ggl{
+   background: linear-gradient(rgb(233, 215, 52), rgb(172, 177, 150));
+}
+
+#log-in-button, #sign-up-button{
+   background: rgb(52, 130, 233);
+}
+
+.log-in-form-container > h3 {
+    color: gainsboro;
+}
+
+.log-in-form-container form button{
+    width: 57%;
+    border: none;
+    color: gainsboro;
+}
+
+.log-in-form-container form a{
+    color: rgb(65, 93, 122);
+}
+
+.log-in-form-container button{
+    width: 55%;
+    border: none;
+    color: gainsboro;
+}
+
+hr{
+    width: 90%;
+}
+
+button:hover{
+  cursor: pointer;
+}
